@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 100%;
+    background-color: orangered;
+}
+.home h1{
+    margin-bottom: 1em;
+}
+.home input[type=text]{
+    height: 1.5em;
+    width: 25em;
+    padding: 2px;
+    margin: 2em;
+}

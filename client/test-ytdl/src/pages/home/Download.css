@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.download-card{
+    margin: 1em;
+    margin-inline: 16em;
+    width: calc(100% - 32em);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    margin-left: 2em;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+a{
+    border: solid 1px orangered;
+    padding: 0.5em;
+    border-radius: 5px;
+    text-decoration: none;
+    color: orangered;
+    margin-right: 5em;
+}
+a:hover{
+    background-color: orangered;
+    color: white;
+}
